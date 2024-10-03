@@ -1,0 +1,38 @@
+name: lab2v3
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/product_categories/red_wines.png
+    - assets/images/product_categories/white_wines.png
+
+    - assets/images/product_cards/wine1.jpg
+    - assets/images/product_cards/wine2.jpg
+    - assets/images/product_cards/wine3.jpg
+    - assets/images/product_cards/wine4.jpg
+    
+    - assets/icons/sparkling_wine_icon.png
+    - assets/icons/france_flag_icon.png
+  fonts:
+    - family: Volkhov
+      fonts:
+        - asset: assets/fonts/Volkhov-Bold.ttf
+          weight: 700
+    - family: Archivo
+      fonts:
+        - asset: assets/fonts/Archivo-VariableFont_wdth,wght.ttf
